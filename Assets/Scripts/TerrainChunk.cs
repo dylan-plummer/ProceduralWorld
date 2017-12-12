@@ -56,7 +56,7 @@ public class TerrainChunk {
 			lodMeshes[i] = new LODMesh(detailLevels[i].lod);
 			lodMeshes[i].updateCallback += UpdateTerrainChunk;
 			if (i == colliderLODIndex) {
-				lodMeshes[i].updateCallback += UpdateCollisionMesh;
+				//lodMeshes[i].updateCallback += UpdateCollisionMesh;
 			}
 		}
 

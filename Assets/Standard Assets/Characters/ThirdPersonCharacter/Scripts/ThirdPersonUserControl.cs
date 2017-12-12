@@ -17,9 +17,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void Start()
         {
             // get the transform of the main camera
-            if (Camera.main != null)
+            if (GetComponent<Camera>() != null)
             {
-                m_Cam = Camera.main.transform;
+                m_Cam = GetComponent<Camera>().transform;
             }
             else
             {

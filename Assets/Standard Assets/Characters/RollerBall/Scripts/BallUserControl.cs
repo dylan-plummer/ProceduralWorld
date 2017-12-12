@@ -23,9 +23,9 @@ namespace UnityStandardAssets.Vehicles.Ball
 
 
             // get the transform of the main camera
-            if (Camera.main != null)
+            if (GetComponent<Camera>() != null)
             {
-                cam = Camera.main.transform;
+                cam = GetComponent<Camera>().transform;
             }
             else
             {

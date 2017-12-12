@@ -12,8 +12,9 @@
 		// Physically based Standard lighting model, and enable shadows on all light types
 		#pragma surface surf Standard fullforwardshadows
 
-		// Use shader model 3.0 target, to get nicer looking lighting
-		#pragma target 3.0
+		// Use shader model 3.5 target, to get nicer looking lighting
+		#pragma target 3.5
+		#include "UnityCG.cginc"
 
 		const static int maxLayerCount = 8;
 		const static float epsilon = 1E-4;
@@ -30,7 +31,6 @@
 
 		sampler2D testTexture;
 		float testScale;
-
 		UNITY_DECLARE_TEX2DARRAY(baseTextures);
 
 		struct Input {

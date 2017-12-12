@@ -90,7 +90,7 @@ namespace UnityStandardAssets.Utility
                 return GetComponent<Camera>();
             }
 
-            return Camera.main;
+            return GetComponent<Camera>();
         }
     }
 }
