@@ -1,4 +1,5 @@
-﻿Shader "Custom/Terrain" {
+﻿
+Shader "Custom/Terrain" {
 	Properties {
 		testTexture("Texture", 2D) = "white"{}
 		testScale("Scale", Float) = 1
@@ -72,3 +73,4 @@
 	}
 	FallBack "Diffuse"
 }
+
