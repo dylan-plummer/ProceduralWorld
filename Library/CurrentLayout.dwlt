@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 0
     width: 612
     height: 640
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 787
     height: 640
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -253,8 +253,8 @@ MonoBehaviour:
     y: 0
     width: 302
     height: 640
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -283,10 +283,10 @@ MonoBehaviour:
     y: 640
     width: 1920
     height: 307
-  m_MinSize: {x: 334, y: 271}
-  m_MaxSize: {x: 14004, y: 10021}
+  m_MinSize: {x: 332, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 170
+  controlID: 75
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,8 +330,8 @@ MonoBehaviour:
     y: 0
     width: 832
     height: 307
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.00009769371, y: -0.9774071, z: 0.21139471, w: 0.0005831809}
     speed: 2
-    m_Value: {x: 0.00009769309, y: -0.9774009, z: 0.21139337, w: 0.00058317726}
+    m_Value: {x: -0.000097693715, y: 0.9774071, z: -0.21139471, w: -0.0005831809}
   m_Size:
     m_Target: 166.84406
     speed: 2
@@ -548,9 +548,9 @@ MonoBehaviour:
     height: 619
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88260000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 22cbffffc6cbffff02cdffffdcfbffff000000001a2900002a290000382900003c2d00004c2d0000
+    m_ExpandedIDs: dafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -643,20 +643,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Terrain Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Terrain Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jumpr_000\Desktop\Desktop\Unity\Procedural World\Procedural
     World
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: 60270000
-    m_LastClickedID: 10080
-    m_ExpandedIDs: 000000007825000036260000a0260000022700003c27000060270000b227000046280000a8290000ac2e000000ca9a3bffffff7f
+    m_SelectedIDs: 00270000
+    m_LastClickedID: 9984
+    m_ExpandedIDs: 000000009625000054260000be260000202700005a2700007e270000d027000064280000a4290000a629000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -684,7 +684,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007825000036260000a0260000022700003c27000060270000b227000046280000a8290000
+    m_ExpandedIDs: 000000009625000054260000be260000202700005a2700007e270000d027000064280000a4290000a6290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
