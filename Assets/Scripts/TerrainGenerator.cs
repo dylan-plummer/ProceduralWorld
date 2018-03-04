@@ -16,6 +16,7 @@ public class TerrainGenerator : MonoBehaviour {
 	public TextureData textureSettings;
 
 	public Transform viewer;
+	public Camera camera;
 	public Material mapMaterial;
 
 	Vector2 viewerPosition;
@@ -28,7 +29,7 @@ public class TerrainGenerator : MonoBehaviour {
 	List<TerrainChunk> visibleTerrainChunks = new List<TerrainChunk>();
 
 	void Start() {
-
+		mapMaterial.SetFloat ("_GridSpacing", camera.transform.position.y / 10);
 		textureSettings.ApplyToMaterial (mapMaterial);
 		textureSettings.UpdateMeshHeights (mapMaterial, heightMapSettings.minHeight, heightMapSettings.maxHeight);
 
@@ -41,7 +42,7 @@ public class TerrainGenerator : MonoBehaviour {
 
 	void Update() {
 		viewerPosition = new Vector2 (viewer.position.x, viewer.position.z);
-
+		mapMaterial.SetFloat ("_GridSpacing", camera.transform.position.y / 10);
 		/*
 		if (viewerPosition != viewerPositionOld) {
 			foreach (TerrainChunk chunk in visibleTerrainChunks) {

@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\TextureGenerator.cs" />
      <Compile Include="Assets\Scripts\ThreadedDataRequester.cs" />
      <Compile Include="Assets\Scripts\TouchCamera.cs" />
+     <None Include="Assets\Scripts\TerrainWater.shader" />
      <None Include="Assets\Scripts\Terrain.shader" />
      <None Include="Assets\Scripts\Grid.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />

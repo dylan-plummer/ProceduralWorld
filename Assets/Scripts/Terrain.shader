@@ -1,7 +1,7 @@
 ﻿
 Shader "Custom/Terrain" {
 	Properties {
-		//testTexture("Texture", 2D) = "white"{}
+		testTexture("Texture", 2D) = "white"{}
 		testScale("Scale", Float) = 1
 		_GridThickness ("Grid Thickness", Float) = 0.01
 	    _GridSpacing ("Grid Spacing", Float) = 10.0
@@ -9,12 +9,13 @@ Shader "Custom/Terrain" {
 	    _BaseColour ("Base Colour", Color) = (0.0, 0.0, 0.0, 0.0)
 	}
 	SubShader {
-		Tags { "RenderType" = "Opaque" "Queue" = "Transparent" }
+		Tags { "RenderType" = "Opaque" "Queue" = "Transparent" "IgnoreProjector"="True"}
         Blend One One
 		LOD 200
 
 		Pass {
 	        ZWrite Off
+	        AlphaToMask On
 	        Blend SrcAlpha OneMinusSrcAlpha
 	     
 	        CGPROGRAM
