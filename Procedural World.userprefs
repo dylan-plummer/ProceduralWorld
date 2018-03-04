@@ -1,16 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LightRotator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Terrain.shader">
     <Files>
       <File FileName="Assets\Scripts\LocationService.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DetectTouchMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TouchCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LightRotator.cs" Line="13" Column="18" />
-      <File FileName="Assets\Scripts\FalloffGenerator.cs" Line="6" Column="38" />
+      <File FileName="Assets\Scripts\LightRotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FalloffGenerator.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\TerrainChunk.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MeshGenerator.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Noise.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GeneratorRotator.cs" Line="14" Column="49" />
+      <File FileName="Assets\Scripts\Terrain.shader" Line="74" Column="3" />
+      <File FileName="Assets\Scripts\Grid.shader" Line="62" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

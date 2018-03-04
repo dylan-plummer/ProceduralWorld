@@ -70,6 +70,8 @@ Shader "Custom/Terrain" {
 
 
 		ENDCG
+
+
 	}
 	FallBack "Diffuse"
 }
